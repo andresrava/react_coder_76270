@@ -7,6 +7,8 @@ function App() {
   return (
     <>
       <Bienvenida/>
+      <Bienvenida/>
+      <Bienvenida/>
     </>
   )
 }
