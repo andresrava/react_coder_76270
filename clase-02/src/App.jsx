@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+      <h1>Bienvenidos</h1>
       <Header/>
       <Principal/>
       <Footer/>
