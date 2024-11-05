@@ -1,12 +1,14 @@
 import Navbar from './components/Navbar'
 import ItemListContainer from './components/ItemListContainer'
-import './App.css'
+
+import NavbarBoot from './components/NavbarBoot'
 
 function App() {
 
   return (
     <>
-     <Navbar/>
+     {/* <Navbar/> */}
+     <NavbarBoot/>
      <ItemListContainer greeting="HOla!"/>
     </>
   )
