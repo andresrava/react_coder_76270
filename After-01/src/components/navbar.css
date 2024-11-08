@@ -6,8 +6,9 @@ body {
     display: flex;
     height: 120px;
     background-color:lightgray;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    
 }
 
 .navbar-links {

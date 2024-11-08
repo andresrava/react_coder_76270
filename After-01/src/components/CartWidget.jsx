@@ -1,5 +1,5 @@
 import {FaShoppingCart} from "react-icons/fa";
-import "./navbar.css"
+
 function CartWidget() {
   return (
     <div className="carrito">

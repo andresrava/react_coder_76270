@@ -1,18 +1,19 @@
 import Logo from "./Logo"
 import CartWidget from "./CartWidget"
+import "./navbar.css"
 function Navbar() {
   return (
-    <div>
+    <div className="navbar">
         <Logo/>
-            <ul>
-                <li>
-                    item 1
+            <ul className="navbar-links">
+                <li className="navbar-item">
+                    <a href="">Categoria 1</a> 
                 </li>
-                <li>
-                    item 2
+                <li className="navbar-item">
+                    <a href="">Categoria 2</a> 
                 </li>
-                <li>
-                    item 3
+                <li className="navbar-item">
+                    <a href="">Categoria 3</a> 
                 </li>
             </ul>
     <CartWidget/>

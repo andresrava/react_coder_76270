@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-     {/* <Navbar/> */}
-     <NavbarBoot/>
-     <ItemListContainer greeting="HOla!"/>
+     <Navbar/>
+     {/* <NavbarBoot/> */}
+     <ItemListContainer greeting="Hola!"/>
     </>
   )
 }
