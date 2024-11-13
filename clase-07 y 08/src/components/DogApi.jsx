@@ -1,19 +1,13 @@
 import { useState } from "react";
 
 function DogApi() {
-
+    
     const [dogImageUrl,setDogImageUrl] = useState("");
-
+    
     const fetchDogApi = () => {
         
-        fetch("https://dog.ceo/api/breeds/image/random")  // retornar una promesa
-            .then(response=>{
-                console.log(response)
-                if (!response.ok){
-                    throw new Error("No pudimos recibir la imagen")
-                }
-                return response.json()
-            })
+        fetch("https://dog.ceo/api/breeds/image/random")  // retorna una promesa
+            .then(response=> response.json()) // retorna una prompesa
             .then(data=>{
                 console.log(data);
                 setDogImageUrl(data.message)
