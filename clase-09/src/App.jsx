@@ -5,6 +5,7 @@ import Layout from './paginas/Layout'
 import NoPage from './paginas/NoPage'
 import Productos from './paginas/Productos'
 import Quienes from './paginas/Quienes'
+import DetalleProducto from './paginas/DetalleProducto'
 
 
 import {BrowserRouter, Routes,Route} from "react-router-dom";
@@ -21,8 +22,9 @@ function App() {
                 <Route index element={<Home/>}/>
                 <Route path='/quienes' element={<Quienes/>}/>
                 <Route path='/productos' element={<Productos/>}/>
-            </Route>
+                <Route path="/productos/:id" element={<DetalleProducto/>}/>
                 <Route path='*' element={<NoPage/>}/>
+            </Route>
         </Routes>
       </BrowserRouter>
 
