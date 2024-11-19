@@ -6,6 +6,7 @@ import NoPage from './paginas/NoPage'
 import Productos from './paginas/Productos'
 import Quienes from './paginas/Quienes'
 import DetalleProducto from './paginas/DetalleProducto'
+import Eventos from './paginas/Eventos'
 
 
 import {BrowserRouter, Routes,Route} from "react-router-dom";
@@ -23,6 +24,7 @@ function App() {
                 <Route path='/quienes' element={<Quienes/>}/>
                 <Route path='/productos' element={<Productos/>}/>
                 <Route path="/productos/:id" element={<DetalleProducto/>}/>
+                <Route path='/eventos' element={<Eventos/>}/>
                 <Route path='*' element={<NoPage/>}/>
             </Route>
         </Routes>

@@ -13,6 +13,9 @@ function Layout() {
                 <li>
                     <Link to={"/quienes"}>Quienes</Link>
                 </li>
+                <li>
+                    <Link to={"/eventos"}>Eventos</Link>
+                </li>
             </ul>
         </nav>
         <Outlet/>
