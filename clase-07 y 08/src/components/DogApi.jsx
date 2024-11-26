@@ -6,7 +6,7 @@ function DogApi() {
     
     const fetchDogApi = () => {
         
-        fetch("https://dog.ceo/api/breeds/image/random")  // retorna una promesa
+        fetch("https://dog.ceo/api/breed/beagle/images/random")  // retorna una promesa
             .then(response=> response.json()) // retorna una prompesa
             .then(data=>{
                 console.log(data);

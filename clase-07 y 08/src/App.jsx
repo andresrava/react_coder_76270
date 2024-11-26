@@ -10,10 +10,10 @@ function App() {
 
   return (
     <>
-      {/* <DogApi/> */}
+      <DogApi/>
       {/* <DogApiAxios/> */}
       {/* <Harry/> */}
-      <DogApi2/>
+      {/* <DogApi2/> */}
       {/* <DogApiAsync/> */}
     </>
   )
